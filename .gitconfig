@@ -20,3 +20,4 @@
     pfush = !git push --force-with-lease
     subsfix = !git submodule update --init --recursive --rebase && git status
     schmutz = !git reset --hard && git clean -dfx
+    fullschmutz = !git reset --hard && git clean -dfx && git fetch --all && git pull
