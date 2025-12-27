@@ -21,3 +21,4 @@
     subsfix = !git submodule update --init --recursive --rebase && git status
     schmutz = !git reset --hard && git clean -dfx
     fullschmutz = !git reset --hard && git clean -dfx && git fetch --all && git pull
+    back = !git restore *.* && git fetch --all && git pull
