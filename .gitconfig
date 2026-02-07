@@ -16,7 +16,7 @@
     full = !git fetch --all && git pull
     branch = !git checkout -B
     kommit = !git add -p && git commit
-    logo = !git log --oneline
+    logo = !git log --pretty=oneline
     pfush = !git push --force-with-lease
     subsfix = !git submodule update --init --recursive --rebase && git status
     schmutz = !git reset --hard && git clean -dfx
