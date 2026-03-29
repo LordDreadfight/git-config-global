@@ -2,6 +2,7 @@
     prune = false
 [pull]
     rebase = false
+    ff = only
 [rebase]
     autoStash = false
     autosquash = false
