@@ -25,4 +25,7 @@
     back = !git restore *.* && git fetch --all && git pull
     linecount = !git ls-files | xargs wc -l
     checklf = !git ls-files --stage --eol
-    
+    make-exec = !git update-index --add --chmod=+x --really-refresh
+    ff = !git fetch --all
+    rr = !git reset --hard
+
