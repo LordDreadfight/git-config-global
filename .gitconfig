@@ -10,6 +10,7 @@
 [core]
     eol = lf
     autocrlf = false
+    editor = nano
 [i18n]
     filesEncoding = utf-8
 [alias]
