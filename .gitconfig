@@ -31,3 +31,9 @@
     rr = !git reset --hard
     ll = !git logo
 
+[diff]
+        guitool = vscode
+        tool = nano
+[merge]
+        guitool = vscode
+        tool = nano
