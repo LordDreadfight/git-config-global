@@ -29,4 +29,5 @@
     make-exec = !git update-index --add --chmod=+x --really-refresh
     ff = !git fetch --all
     rr = !git reset --hard
+    ll = !git logo
 
