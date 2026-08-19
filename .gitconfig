@@ -30,6 +30,10 @@
     ff = !git fetch --all
     rr = !git reset --hard
     ll = !git logo
+    ss = !git status
+    hash = !git logo -n 1
+    cherrykick = !git cherry-pick -X theirs
+    fuck = !git ff && git commit -m fixup && git rebase -i origin/master
 
 [diff]
         guitool = vscode
@@ -37,3 +41,4 @@
 [merge]
         guitool = vscode
         tool = nano
+
