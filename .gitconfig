@@ -18,7 +18,6 @@
 [alias]
     shuffle = !git rebase -i --autosquash --autostash
     full = !git fetch --all && git pull
-    branch = !git checkout -B
     kommit = !git add -p && git commit
     logo = !git log --pretty=oneline
     pfush = !git push --force-with-lease
