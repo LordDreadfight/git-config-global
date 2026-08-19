@@ -3,6 +3,8 @@
 [pull]
     rebase = false
     ff = only
+[push]
+    autoSetupRemote = true
 [rebase]
     autoStash = false
     autosquash = false
