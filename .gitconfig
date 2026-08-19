@@ -16,7 +16,7 @@
 [i18n]
     filesEncoding = utf-8
 [alias]
-    shuffle = !git rebase -i --autosquash --autostash 
+    shuffle = !git rebase -i --autosquash --autostash origin/master
     full = !git fetch --all && git pull
     kommit = !git add -p && git commit
     logo = !git log --pretty=oneline
